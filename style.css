@@ -4,18 +4,21 @@
 
 .titulo1{
   color: gray;
-  text-shadow: 1px 1px 0 red;
+  text-shadow: 1px 1px 0 mediumpurple;
   text-align: center;
   position: relative;
   left: -20px;
   letter-spacing: 3px;
   text-decoration-line: underline;
-  text-decoration-color: red;
-  font-size: 50px;
+  text-decoration-color: purple;
+  font-size: 48px;
   background-color: #404040AB;
   border-radius: 10px;
   display: inline-block;
   padding: 2px;
+  border-width: 3px;
+  border-style: solid;
+  border-color: mediumpurple;
 }
 
 .texto1{
@@ -39,29 +42,31 @@
 }
 
 .linha1{
-  color: red;
-  text-shadow: 2px 2px 0 mediumpurple;
+  border: none;
+  height: 3px;
+  background-color: purple;
+  box-shadow: 1px 1px 0 mediumpurple;
+  margin: 20px 0;
 }
 
-.checkbox{
-  font-size: 25px;
-  margin: 5px;
-}
-
-.label{
-  color: red;
-  text-shadow: 1px 1px 0 mediumpurple;
+.detalhes{
+  color: gray;
   font-size: 30px;
+  background-color: #404040AB;
+  border-radius: 10px;
+  padding: 4px;
+  display: inline-block;
+  text-shadow: 1px 1px 0 mediumpurple;
+  border-width: 3px;
+  border-style: solid;
+  border-color: mediumpurple;
+  position: relative;
+  left: 10px;
 }
 
-.label2{
-  color: red;
-  text-shadow: 1px 1px 0 mediumpurple;
-  font-size: 30px;
-}
-
-.label3{
-  color: red;
-  text-shadow: 1px 1px 0 mediumpurple;
-  font-size: 30px;
+.icon{
+  color: gray;
+  font-size: 20px;
+  position: relative;
+  top: -25px;
 }
