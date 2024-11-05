@@ -64,9 +64,35 @@
   left: 10px;
 }
 
+.detalhes2{
+  color: gray;
+  font-size: 30px;
+  background-color: #404040AB;
+  border-radius: 10px;
+  padding: 4px;
+  display: inline-block;
+  text-shadow: 1px 1px 0 mediumpurple;
+  border-width: 3px;
+  border-style: solid;
+  border-color: mediumpurple;
+  position: relative;
+  left: 10px;
+}
+
 .icon{
   color: gray;
   font-size: 20px;
   position: relative;
   top: -25px;
+}
+
+.checkbox{
+  color: red;
+  text-shadow: 1px 1px 0 mediumpurple;
+  font-size: 30px;
+  background-color: #404040AB;
+  border-radius: 10px;
+  padding: 3px;
+  position: relative;
+  right: -100px;
 }
